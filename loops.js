@@ -38,6 +38,9 @@ for ([initialization]; [condition]; [iteration]) {
 
 WHILE: Use when we don't know how many times the loop needs to reun because it depends on a function/return value.
 
+while ([condition]) {
+  [loopBody]
+}
 
 
 */
