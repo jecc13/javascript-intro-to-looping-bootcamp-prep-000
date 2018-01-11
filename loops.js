@@ -35,6 +35,8 @@ function whileLoop(number) {
   return console.log('done');  
 }
 
+function do
+
 
 /* Reference parking lot 
 FOR: Use when you know how many times you want the loop to run.
