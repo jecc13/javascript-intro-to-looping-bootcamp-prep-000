@@ -16,5 +16,6 @@ function forLoop(array) {
       // add "I am ${i} strange loops."
     }
   }
+  console.log(array);
   return array;
 }
