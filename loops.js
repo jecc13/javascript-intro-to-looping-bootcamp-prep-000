@@ -44,7 +44,7 @@ karray = [];
 
 function doWhileLoop(karray) {
   do {
-    karray.pop;
+    karray.pop();
   } while (karray.length > 0 && maybeTrue());
 }
 
