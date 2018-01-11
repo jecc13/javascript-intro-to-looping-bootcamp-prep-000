@@ -5,19 +5,24 @@ for ([initialization]; [condition]; [iteration]) {
   [loopBody]
 }
 */
-array = [];
+jarray = [];
 
-function forLoop(array) {
+function destructivelyAppendKitten(name) {
+  kittens.push(name);
+  return kittens;
+}
+
+function forLoop(jarray) {
   for (var i = 0; i < 25; i++) {
     if (i === 1) {
       // add "I am 1 strange loop." to the array.
-      array.push("I am 1 strange loop.");
+      jarray.push("I am 1 strange loop.");
     } else {
-      array.push("I am ${i} strange loops."); 
+      jarray.push("I am ${i} strange loops."); 
       // add "I am ${i} strange loops."
     }
   }
-  console.log(array);
-  return array;
+  console.log(jarray);
+  return jarray;
 }
 forLoop();
