@@ -28,8 +28,6 @@ function forLoop(jarray) {
 */
 
 
-let countdown = 100;
-
 function whileLoop(number) {
   while (countdown > 0) {
     console.log(--countdown);
