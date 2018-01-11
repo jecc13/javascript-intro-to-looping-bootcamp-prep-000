@@ -25,6 +25,7 @@ function doWhileLoop(karray) {
   do {
     karray.pop();
   } while (karray.length > 0 && maybeTrue());
+  return karray;
 }
 
 
