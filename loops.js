@@ -43,7 +43,7 @@ function maybeTrue() {
 function doWhileLoop(jarray) {
   do {
     //
-    
+    jarray.length =- 1;
   } while (jarray.length > 0 && maybeTrue());
 }
 
