@@ -7,6 +7,7 @@ for ([initialization]; [condition]; [iteration]) {
 */
 jarray = [];
 
+/*
 function forLoop(jarray) {
     for (let i = 0; i < 25; i++) {
     if (i === 1) {
@@ -18,10 +19,12 @@ function forLoop(jarray) {
   }
   return jarray;
 }
-
+*/
 
 
 /* why doesn't push work?? 
+*/
+
 function forLoop(jarray) {
     for (let i = 0; i < 25; i++) {
     if (i === 1) {
@@ -32,5 +35,5 @@ function forLoop(jarray) {
   }
   return jarray;
 }
-*/
+
 
