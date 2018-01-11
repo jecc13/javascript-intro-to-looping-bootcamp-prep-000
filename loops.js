@@ -35,7 +35,9 @@ function whileLoop(number) {
   return console.log('done');  
 }
 
-function do
+function doWhileLoop(jarray) {
+  
+}
 
 
 /* Reference parking lot 
@@ -51,5 +53,10 @@ while ([condition]) {
   [loopBody]
 }
 
+DO WHILE: Use when you need a while loop that executes at least once.
+
+do {
+  [loopBody];
+} while ([condition]);
 
 */
