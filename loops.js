@@ -4,9 +4,9 @@ jarray = [];
 function forLoop(jarray) {
     for (let i = 0; i < 25; i++) {
     if (i === 1) {
-      jarray.push('I am 1 strange loop.');
+      jarray.push(`I am 1 strange loop.`);
     } else {
-      jarray.push('I am ${i} strange loops.'); 
+      jarray.push(`I am ${i} strange loops.`); 
     }
   }
   return jarray;
@@ -32,7 +32,7 @@ function whileLoop(number) {
   while (number > 0) {
     console.log(--number);
   }
-  return console.log("'done'");  
+  return console.log(`done`);  
 }
 
 
