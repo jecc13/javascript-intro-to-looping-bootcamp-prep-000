@@ -13,7 +13,7 @@ function destructivelyAppendKitten(name) {
 }
 
 function forLoop(jarray) {
-  for (var i = 0; i < 25; i++) {
+    for (let i = 0; i < 25; i++) {
     if (i === 1) {
       // add "I am 1 strange loop." to the array.
       jarray.push("I am 1 strange loop.");
