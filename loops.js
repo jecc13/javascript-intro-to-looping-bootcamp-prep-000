@@ -20,7 +20,7 @@ function forLoop(jarray) {
       // jarray.push('I am 1 strange loop.');
       jarray[i] = 'I am 1 strange loop.';
     } else {
-      jarray = [...jarray, i];
+      jarray[i] = 'I am ${i} strange loops.';
       // jarray.push('I am ${i} strange loops.'); 
       // add "I am ${i} strange loops."
     }
