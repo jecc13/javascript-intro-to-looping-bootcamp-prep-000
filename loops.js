@@ -6,6 +6,7 @@ for ([initialization]; [condition]; [iteration]) {
 }
 */
 jarray = [];
+kittens = [];
 
 function destructivelyAppendKitten(name) {
   kittens.push(name);
