@@ -28,6 +28,15 @@ function forLoop(jarray) {
 */
 
 
+let countdown = 100;
+
+function whileLoop(number) {
+  while (countdown > 0) {
+    console.log(--countdown);
+  }
+  return console.log('done');  
+}
+
 
 /* Reference parking lot 
 FOR: Use when you know how many times you want the loop to run.
