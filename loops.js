@@ -40,7 +40,6 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 
-karray = [];
 
 function doWhileLoop(karray) {
   do {
