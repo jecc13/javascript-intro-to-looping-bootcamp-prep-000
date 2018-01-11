@@ -40,11 +40,13 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 
-function doWhileLoop(jarray) {
+karray = [];
+
+function doWhileLoop(karray) {
   do {
     //
-    jarray.length =- 1;
-  } while (jarray.length > 0 && maybeTrue());
+    karray.length =- 1;
+  } while (karray.length > 0 && maybeTrue());
 }
 
 
