@@ -1,6 +1,3 @@
-
-jarray = [];
-
 function forLoop(jarray) {
     for (let i = 0; i < 25; i++) {
     if (i === 1) {
@@ -11,6 +8,25 @@ function forLoop(jarray) {
   }
   return jarray;
 }
+
+function whileLoop(number) {
+  while (number > 0) {
+    console.log(--number);
+  }
+  return console.log('done');  
+}
+
+
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
+function doWhileLoop(karray) {
+  do {
+    karray.pop();
+  } while (karray.length > 0 && maybeTrue());
+}
+
 
 /* why doesn't this work?
 
@@ -26,26 +42,6 @@ function forLoop(jarray) {
   return jarray;
 }
 */
-
-
-function whileLoop(number) {
-  while (number > 0) {
-    console.log(--number);
-  }
-  return console.log('done');  
-}
-
-
-function maybeTrue() {
-  return Math.random() >= 0.5
-}
-
-
-function doWhileLoop(karray) {
-  do {
-    karray.pop();
-  } while (karray.length > 0 && maybeTrue());
-}
 
 
 /* Reference parking lot 
