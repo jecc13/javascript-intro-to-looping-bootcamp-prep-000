@@ -21,7 +21,6 @@ function forLoop(jarray) {
 
 
 
-
 /* why doesn't push work?? 
 function forLoop(jarray) {
     for (let i = 0; i < 25; i++) {
@@ -34,8 +33,4 @@ function forLoop(jarray) {
   return jarray;
 }
 */
-
-
-
-
 
