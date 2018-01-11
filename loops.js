@@ -1,4 +1,3 @@
-/*
 function forLoop(jarray) {
     for (let i = 0; i < 25; i++) {
     if (i === 1) {
@@ -9,8 +8,6 @@ function forLoop(jarray) {
   }
   return jarray;
 }
-*/
-
 
 function whileLoop(number) {
   while (number > 0) {
@@ -30,9 +27,7 @@ function doWhileLoop(karray) {
   return karray;
 }
 
-
 /* why doesn't this work?
-*/
 function forLoop(jarray) {
     for (let i = 0; i < 25; i++) {
     if (i === 1) {
@@ -43,27 +38,21 @@ function forLoop(jarray) {
   }
   return jarray;
 }
-/*
 */
-
 
 /* Reference parking lot 
 FOR: Use when you know how many times you want the loop to run.
-
 for ([initialization]; [condition]; [iteration]) {
   [loopBody]
 }
 
 WHILE: Use when we don't know how many times the loop needs to reun because it depends on a function/return value.
-
 while ([condition]) {
   [loopBody]
 }
 
 DO WHILE: Use when you need a while loop that executes at least once.
-
 do {
   [loopBody];
 } while ([condition]);
-
 */
