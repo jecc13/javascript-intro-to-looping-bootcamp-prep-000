@@ -35,8 +35,16 @@ function whileLoop(number) {
   return console.log('done');  
 }
 
+
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
 function doWhileLoop(jarray) {
-  
+  do {
+    //
+    
+  } while (jarray.length > 0 && maybeTrue());
 }
 
 
