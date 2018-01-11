@@ -18,7 +18,7 @@ function forLoop(jarray) {
     if (i === 1) {
       // add "I am 1 strange loop." to the array.
       // jarray.push('I am 1 strange loop.');
-      jarray = [...jarray, one];
+      jarray[i] = 'I am 1 strange loop.';
     } else {
       jarray = [...jarray, i];
       // jarray.push('I am ${i} strange loops.'); 
