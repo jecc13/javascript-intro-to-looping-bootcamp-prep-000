@@ -5,7 +5,7 @@ for ([initialization]; [condition]; [iteration]) {
   [loopBody]
 }
 */
-var array = [];
+array = [];
 
 function forLoop(array) {
   for (var i = 0; i < 25; i++) {
