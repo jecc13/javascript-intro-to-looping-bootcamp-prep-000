@@ -25,7 +25,10 @@ function forLoop(jarray) {
       // add "I am ${i} strange loops."
     }
   }
-  console.log(jarray);
   return jarray;
 }
-forLoop();
+
+
+
+
+
