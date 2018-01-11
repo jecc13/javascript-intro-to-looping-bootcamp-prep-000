@@ -1,3 +1,4 @@
+/*
 function forLoop(jarray) {
     for (let i = 0; i < 25; i++) {
     if (i === 1) {
@@ -8,6 +9,8 @@ function forLoop(jarray) {
   }
   return jarray;
 }
+*/
+
 
 function whileLoop(number) {
   while (number > 0) {
@@ -29,18 +32,18 @@ function doWhileLoop(karray) {
 
 
 /* why doesn't this work?
-
+*/
 function forLoop(jarray) {
     for (let i = 0; i < 25; i++) {
     if (i === 1) {
       jarray[i] = 'I am 1 strange loop.';
     } else {
       jarray[i] = 'I am ${i} strange loops.';
-
     }
   }
   return jarray;
 }
+/*
 */
 
 
