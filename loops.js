@@ -18,7 +18,7 @@ function forLoop(jarray) {
   return jarray;
 }
 
-/* why doens't this work?
+/* why doesn't this work?
 
 function forLoop(jarray) {
     for (let i = 0; i < 25; i++) {
