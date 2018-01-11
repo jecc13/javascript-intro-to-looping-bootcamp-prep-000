@@ -43,10 +43,8 @@ function maybeTrue() {
 karray = [];
 
 function doWhileLoop(karray) {
-  var klength = karray.length; 
   do {
-    klength =- 1;
-    karray.length =- klength;
+    karray.pop;
   } while (karray.length > 0 && maybeTrue());
 }
 
